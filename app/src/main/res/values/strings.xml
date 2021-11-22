@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">activity_lab</string>
+    <string name="operation_was_canceled">Операция была отменена</string>
 </resources>

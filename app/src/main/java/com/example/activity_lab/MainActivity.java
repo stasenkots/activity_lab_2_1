@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
                             String answerString = data.getStringExtra("ANSWER_TEXT");
                             MainActivity.this.lastAnswer.setText(answerString);
                         }
+                        if (result.getResultCode() == Activity.RESULT_CANCELED){
+                            MainActivity.this.lastAnswer.setText(R.string.operation_was_canceled);
+                        }
                     }
                 });
 
