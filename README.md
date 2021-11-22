@@ -1,1 +1,1 @@
-# Android development BSU lab 1
+# Android development BSU lab 2
